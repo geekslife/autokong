@@ -1,11 +1,13 @@
 설치방법
 --------
 
-1. 콩체크 로그인용 환경변수 설정
+1. chromedriver (http://chromedriver.chromium.org/downloads) 설치
+
+2. 콩체크 로그인용 환경변수 설정
    - KONG_USERNAME
    - KONG_PASSWORD
 
-2. (Google Cloud Storage 이용시) 환경변수 설정
+3. (Google Cloud Storage 이용시) 환경변수 설정
    - GOOGLE_APPLICATION_CREDENTIALS
 
 실행방법
