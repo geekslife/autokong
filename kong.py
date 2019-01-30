@@ -17,7 +17,7 @@ def gen_attendance():
     logging.info('starting chrome...')
     chrome_options = Options()  
     chrome_options.add_argument("--headless")  
-    chrome_options.add_argument('window-size=1280,768')
+    chrome_options.add_argument('window-size=1600,900')
     chrome_options.binary_location = '/usr/bin/google-chrome' 
     driver = webdriver.Chrome(executable_path=os.path.abspath("chromedriver"),   chrome_options=chrome_options)
 
